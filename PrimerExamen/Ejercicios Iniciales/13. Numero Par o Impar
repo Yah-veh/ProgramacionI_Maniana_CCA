@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	
+	Escribir "Ingrese el numero"
+	Leer num
+	
+	si num % 2 = 0 Entonces
+		Escribir "Par"
+	SiNo
+		Escribir "Impar"
+	FinSi
+	
+FinAlgoritmo

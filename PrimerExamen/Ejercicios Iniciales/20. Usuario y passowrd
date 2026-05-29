@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese usuario"
+	Leer usuario
+	Escribir "Ingrese password"
+	Leer pass
+	
+	Si usuario = "admin_cca" Y pass= 2026 Entonces
+		Escribir "Acceso Correcto"
+	SiNo
+		Escribir "Denegado"
+	FinSi
+FinAlgoritmo

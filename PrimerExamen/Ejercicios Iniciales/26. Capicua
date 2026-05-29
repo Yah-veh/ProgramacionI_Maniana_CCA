@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese un numero entero de 3 digitos."
+	Leer num 
+	base <- num // 121
+	
+	aux <- num % 10    // 123 = 12.3  = 3
+	aux <- aux * 100   // 3 * 100 = 300
+	num <- trunc(num/10) // 123 = 12.3 = 12
+	a <- num%10			// 12 = 1.2 = 2
+	aux <- aux + (a*10)  // 2 * 10 = 20         300 + 20 = 320
+	num <- trunc (num/10) // 12 = 1.2 = 1
+	aux <- aux + num      // 320 + 1 = 321
+	
+	Si base = aux Entonces
+		Escribir "Es Capicua"
+	SiNo
+		Escribir "No es Capicua"
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el monto"
+	Leer monto
+	
+	Si monto > 100 Entonces
+		monto = monto * 0.9
+		Escribir "Precio con desc." , monto
+	SiNo
+		Escribir "Precio sin desc." , monto
+	FinSi
+FinAlgoritmo

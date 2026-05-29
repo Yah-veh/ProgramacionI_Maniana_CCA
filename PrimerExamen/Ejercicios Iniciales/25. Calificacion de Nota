@@ -1,0 +1,26 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese la nota"
+	Leer nota
+	
+	si	nota >= 0 Y nota <= 100 Entonces
+		
+		si	nota >= 90 Entonces
+			Escribir "Excelente"
+		FinSi
+		
+		si	nota >= 70 Y nota <= 89 Entonces
+			Escribir "Bueno"
+		FinSi
+		
+		si	nota >= 51 Y nota <= 69 Entonces
+			Escribir "Regular"
+		FinSi
+		
+		si	nota < 51 Entonces
+			Escribir "Reprobado"
+		FinSi
+	SiNo
+		Escribir "Nota fuera de los parametros"
+	FinSi
+	
+FinAlgoritmo

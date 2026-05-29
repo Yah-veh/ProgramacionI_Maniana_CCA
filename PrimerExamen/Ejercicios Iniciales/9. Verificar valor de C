@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el valor de a."
+	Leer a
+	Escribir "Ingrese el valor de b."
+	Leer b
+	
+	c = (4*a^4 + 3*b*a + b^2) / (a^2 - b^2)
+	
+	Escribir "El valor de C es: ", c
+FinAlgoritmo

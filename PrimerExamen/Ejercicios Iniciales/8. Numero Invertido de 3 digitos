@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	
+	Escribir "Ingrese un numero entero de 3 digitos."
+	Leer num
+	
+	aux <- num % 10    // 123 = 12.3  = 3
+	aux <- aux * 100   // 3 * 100 = 300
+	num <- trunc(num/10) // 123 = 12.3 = 12
+	a <- num%10			// 12 = 1.2 = 2
+	aux <- aux + (a*10)  // 2 * 10 = 20         300 + 20 = 320
+	num <- trunc (num/10) // 12 = 1.2 = 1
+	aux <- aux + num      // 320 + 1 = 321
+	
+	Escribir "Salida: ", aux
+
+	//aux <- 123/10
+	//aux2 <- trunc(123/10)
+	//aux3 <- 123%10
+	
+	//Escribir "Div normal: " , aux
+	//Escribir "Div Truncado: " , aux2
+	//Escribir "Div Modulo: " , aux3
+
+FinAlgoritmo

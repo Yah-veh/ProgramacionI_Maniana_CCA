@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el numero"
+	Leer num
+	
+	Si num % 3 = 0 Y num % 5 = 0 Entonces
+		Escribir "Si es Multiplo"
+	SiNo
+		Escribir "No es multiplo"		
+	FinSi
+FinAlgoritmo

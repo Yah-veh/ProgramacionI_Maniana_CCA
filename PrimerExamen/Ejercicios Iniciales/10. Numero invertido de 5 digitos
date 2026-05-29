@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el numero de 5 digitos."
+	Leer num //12345
+	
+	r <- (num % 10)  // 5
+	aux <- r * 10  // 50
+	num <- trunc(num / 10) // 1234
+	
+	r <- (num % 10)  //4
+	aux <- (aux + r) * 10 //540
+	num <- trunc(num / 10) //123
+	
+	r <- (num % 10)  //3
+	aux <- (aux + r) * 10 //5430
+	num <- trunc(num / 10) // 12
+	
+	r <- (num % 10) // 2
+	aux <- (aux + r) * 10 //5430
+	num <- trunc(num / 10) // 1
+	
+	aux <- aux + num
+	Escribir aux
+	
+
+FinAlgoritmo

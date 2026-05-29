@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir 'Ingrese el dia'
+	Leer dia
+	Si dia='Domingo' O dia='Sabado' Entonces
+		Escribir 'Fin de semana'
+	SiNo
+		Si dia='Lunes' O dia='Martes' O dia='Miercoles' O dia='Jueves' O dia='Viernes' Entonces
+			Escribir 'dia laboral'
+		SiNo
+			Escribir 'dia incorrecto'
+		FinSi
+	FinSi
+FinAlgoritmo

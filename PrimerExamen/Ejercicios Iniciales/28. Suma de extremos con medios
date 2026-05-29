@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese un numero entero de 4 digitos."
+	Leer num //1234
+	
+	
+	A <- num % 10 
+	aux <- (num % 10) * 1000    // 1234 = 123,4  = 4 * 1000 = 4000
+	num <- trunc(num/10) // 1234 = 123.4 = 123
+	
+	B <- num % 10 	// 123 = 12,3 =  3
+	aux <- (num % 10) * 100 // 123 = 12,3 = 3 * 100 * 300
+	num <- trunc(num/10) // 12
+	
+	B <- B + (num % 10)
+	aux <- (num % 10) * 10 // 1,2 * 10 = 20 
+	num <- trunc(num/10) // 2
+	A<- A + num
+	
+	Si	A = B Entonces
+		Escribir "Iguales"
+	SiNo
+		Escribir "Diferente"
+	FinSi
+FinAlgoritmo

@@ -1,0 +1,10 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese la nota."
+	Leer nota
+	
+	Si nota >= 0 Y nota <= 100 Entonces
+		Escribir "Nota Valida"
+	SiNo
+		Escribir "Nota Invalida"
+	FinSi
+FinAlgoritmo
