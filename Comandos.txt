@@ -1,0 +1,24 @@
+Clear		Limpiar
+Cd		movernos entre carpetas
+cd ..		atras
+ls		lista o ver archivos
+pwd 		Ubi de directorio actual
+mkdir		crear carpeta
+Cat		Ver archivo
+Nano		Crear o editar archivos
+rm -rf		eliminar carpeta
+
+
+Comandos Git
+
+//clonar repositorios: Este comando me permite copiar repositorios
+git clone https://github.com/Yah-veh/ProgramacionII_Maniana_CCA.git
+
+//Comando para subir archivos
+git add .
+git commit - "Mensaje"		Indica los cambios realizados
+git push			Sube los archivos
+
+//Comandos para actualizar
+Primero Ingresar a la carpeta Main y luego
+git pull
