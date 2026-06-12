@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	definir i Como Entero
+	i = 1
+	
+	Mientras i <= 10 Hacer
+		Escribir i , " Hola"
+		i = i + 1
+	FinMientras
+FinAlgoritmo
+
+

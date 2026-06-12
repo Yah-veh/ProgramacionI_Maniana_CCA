@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	ClaveCorrecta = 123
+	
+	Escribir "Ingrese su Password"
+	Leer clave
+	
+	Mientras clave <> ClaveCorrecta hacer
+		Escribir "Su password es invalido, intente de nuevo"
+		Leer clave
+	FinMientras
+	
+	Escribir "Bienvenido al  Sistema."
+	
+FinAlgoritmo
