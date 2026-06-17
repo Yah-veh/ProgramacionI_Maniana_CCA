@@ -1,0 +1,11 @@
+Algoritmo sin_titulo
+	ClaveCorrecta = 1234
+	Escribir "Ingrese la password"
+	leer clave
+	
+	Mientras clave <> ClaveCorrecta Hacer
+		Escribir "Password incorrecta. Intente de nuevo."
+		Leer clave
+	FinMientras
+	Escribir "Caja Abierta"
+FinAlgoritmo

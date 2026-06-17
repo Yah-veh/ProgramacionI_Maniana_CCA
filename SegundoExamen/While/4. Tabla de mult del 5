@@ -1,0 +1,7 @@
+Algoritmo sin_titulo
+	i = 10
+	Mientras i > 0 Hacer
+		Escribir "5 x ", i, " = ", i * 5
+		i = i - 1
+	FinMientras
+FinAlgoritmo
