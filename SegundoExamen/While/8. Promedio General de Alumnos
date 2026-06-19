@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese la nota"
+	Leer nota
+	
+	Mientras nota <> -1 Hacer
+		suma = suma + nota
+		contador = contador + 1
+		Escribir "Ingrese la nota del siguiente estudiante"
+		Leer nota
+	FinMientras
+	Escribir "Promedio general: " , suma / contador
+	
+FinAlgoritmo

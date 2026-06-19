@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Escribir "Valor inferior"
+	Leer inferior
+	Escribir "Valor Mayor"
+	Leer superior
+	
+	Mientras inferior <= superior Hacer
+		si inferior % 2 = 0 Entonces
+			Escribir inferior
+		FinSi
+		inferior = inferior + 1
+	FinMientras
+FinAlgoritmo
