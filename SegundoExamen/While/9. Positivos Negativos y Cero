@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	i = 1
+	Mientras i <= 10
+		Escribir "Ingrese el numero"
+		leer num
+		si num > 0
+			posi = posi + 1
+		SiNo
+			Si num < 0
+				nega = nega + 1
+			SiNo
+				zero = zero + 1
+			FinSi
+		FinSi
+		i = i + 1
+	FinMientras
+	Escribir "Positivos : ", posi , " Negativos: ", nega , " Ceros: ", zero
+FinAlgoritmo
